@@ -1,0 +1,16 @@
+pre {
+  font-size: 1.2em;
+}
+
+.cores-Cruzeiro {
+  color: white;
+  background-color: blue;
+}
+.cores-Atletico {
+  color: white;
+  background-color: black;
+}
+.cores-America {
+  color: black;
+  background-color: green;
+}

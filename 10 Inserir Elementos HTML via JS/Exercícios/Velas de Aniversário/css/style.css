@@ -1,0 +1,10 @@
+img {
+  float: left;
+  padding-right: 10px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#inIdade {
+  margin-bottom: 20px;
+}

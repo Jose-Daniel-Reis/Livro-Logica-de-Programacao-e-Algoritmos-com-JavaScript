@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="style" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label
+          >Data de vencimento:
+          <input type="date" id="inDataVenc" autofocus required
+        /></label>
+      </p>
+      <p>
+        <label
+          >Valor da conta:
+          <input
+            type="number"
+            id="inValor"
+            min="0"
+            step="0.01"
+            class="alinha-direita"
+            required
+        /></label>
+        <input type="submit" value="Calcular Multa e Juros" />
+      </p>
+      <p>
+        <label
+          >Valor da Multa:
+          <input type="number" id="outMulta" class="alinha-direita" readonly
+        /></label>
+      </p>
+      <p>
+        <label
+          >Valor do Juros:
+          <input type="number" id="outJuros" class="alinha-direita" readonly
+        /></label>
+      </p>
+      <p>
+        <label
+          >Total a pagar R$:
+          <input type="number" id="outTotal" class="alinha-direita" readonly
+        /></label>
+        <input type="reset" value="Nova Conta" />
+      </p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
